@@ -10,6 +10,8 @@ const EMAIL_REGEX = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA
   templateUrl: './input.component.html',
   styleUrls: ['./input.component.css']
 })
+
+
 export class InputComponent {
   postData:string;
   data: any;
